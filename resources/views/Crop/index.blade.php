@@ -42,7 +42,7 @@
     <td>{{$crop->crop_altitude}}</td>
     <td>{{$crop->farming_method}}</td>
     <td>{{$crop->harvest_time}}</td>
-    <!--<td> <span class="label label-{{ ($video->status) ? 'success' : 'danger' }}"> {{ ($video->status) ? ' Active ' : 'Inactive' }}</span></td> -->
+    
     <td><a class="btn btn-primary btn-xs" href="{{action('CropsController@show', $crop->id)}}" ><span class="glyphicon glyphicon-eye-open"></span></a></td>
     <td><a class="btn btn-primary btn-xs" href="{{action('CropsController@edit', $crop->id)}}" ><span class="glyphicon glyphicon-pencil"></span></a></td>
     <td>
